@@ -19,8 +19,8 @@ class Entscheidsuche(Adapter):
 		'Sec-Fetch-Mode': 'cors',
 		'Sec-Fetch-Site': 'same-origin'
 	}
-	host="https://entscheidsuche.pansoft.de:9200"
-	suchpfad="/entscheidsuche-*/_search"
+	host="https://entscheidsuche.pansoft.de"
+	suchpfad="/entscheidsuche-*/_searchV2"
 	dokumentpfad="/id/eprint/"
 	reStrip=re.compile(r"<br>")
 	
