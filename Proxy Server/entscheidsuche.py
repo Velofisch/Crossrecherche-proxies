@@ -20,7 +20,7 @@ class Entscheidsuche(Adapter):
 		'Sec-Fetch-Site': 'same-origin'
 	}
 	host="https://entscheidsuche.pansoft.de"
-	suchpfad="/entscheidsuche-*/_searchV2"
+	suchpfad="/entscheidsuche.v2-*/_search"
 	dokumentpfad="/id/eprint/"
 	reStrip=re.compile(r"<br>")
 	
